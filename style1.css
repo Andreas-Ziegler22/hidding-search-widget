@@ -5,7 +5,7 @@
 body {
   background-color: darkgrey;
   font-family: "roboto", sans-serif;
-  /* display: flex; */
+  display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -20,6 +20,7 @@ body {
 .search .input {
   background-color: #fff;
   border: 0;
+
   font-size: 18px;
   padding: 15px;
   height: 50px;
@@ -51,8 +52,4 @@ input:focus {
 
 .search.active .btn {
   transform: translateX(198px);
-}
-
-.hide {
-  display: none;
 }
